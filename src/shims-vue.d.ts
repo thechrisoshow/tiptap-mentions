@@ -4,3 +4,10 @@ declare module '*.vue' {
   const component: DefineComponent<{}, {}, any>
   export default component
 }
+
+declare module "@heroicons/vue/*";
+
+declare module "*.json" {
+  const value: any;
+  export default value;
+}
